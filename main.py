@@ -12,7 +12,6 @@ from tensorboardX import SummaryWriter
 import time
 import procedure
 from os.path import join
-import nni
 from logger import CompleteLogger
 
 
