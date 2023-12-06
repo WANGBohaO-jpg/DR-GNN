@@ -12,6 +12,3 @@ nohup python main.py --model=lgn --enable_DRO=1 --aug_on --full_batch --ood popu
 ```
 nohup python main.py --model=lgn --enable_DRO=1 --aug_on --full_batch --ood popularity_shift --dataset='yelp2018' --weight_decay 0.0001 --alpha 0.07 --tau 1 --aug_coefficient 0.25 --aug_ratio 0.05 --cuda 7 &
 ```
-```
-nohup python main.py --model=lgn --enable_DRO=1 --aug_on --full_batch --ood popularity_shift --dataset='amazon-beauty' --weight_decay 0.001 --alpha 0.084 --tau 1 --aug_coefficient 0.25 --aug_ratio 0.01 --cuda 7 &
-```
