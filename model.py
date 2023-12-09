@@ -157,7 +157,7 @@ class LightGCN(BasicModel):
                 deg = deg1[self.num_users :]
                 num = self.num_items
             Ef = torch.zeros(num).cuda()
-            Ef.scatter_add_(dim=0, index=idx, src=f)  # 根据U中的索引将f中的值加到Ef中；即对于每个i，都会执行Ef[U[i]] += f[i]
+            Ef.scatter_add_(dim=0, index=idx, src=f)
             Ef = Ef / deg
             Ef = torch.where(Ef == 0, torch.tensor(1.0), Ef)
             return Ef
