@@ -231,7 +231,7 @@ def getLabel(test_data, pred_data):
     for i in range(len(test_data)):
         groundTrue = test_data[i]
         predictTopK = pred_data[i]
-        pred = list(map(lambda x: x in groundTrue, predictTopK))  # 对于 predictTopK 中的每一个item，检查它是否在真实的test item中
+        pred = list(map(lambda x: x in groundTrue, predictTopK))
         pred = np.array(pred).astype("float")
         r.append(pred)
     return np.array(r).astype("float")
