@@ -1,4 +1,8 @@
 # Distributionally Robust Graph-based Recommendation System (DR-GNN)
+
+![Static Badge](https://img.shields.io/badge/Conference-WWW2024-FF8C00)
+
+
 This is the PyTorch implementation for our WWW 2024 paper. 
 > Bohao Wang, Jiawei Chen, Changdong Li, Sheng Zhou, Qihao Shi, Yang Gao, Yan Feng, Chun Chen, Can Wang 2024. Distributionally Robust Graph-based Recommendation System. [arXiv link](https://arxiv.org/abs/2402.12994)
 
