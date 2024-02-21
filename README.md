@@ -1,5 +1,6 @@
 # Distributionally Robust Graph-based Recommendation System (DR-GNN)
-This is the PyTorch implementation for our WWW 2024 paper DR-GNN.
+This is the PyTorch implementation for our WWW 2024 paper. 
+> Bohao Wang, Jiawei Chen, Changdong Li, Sheng Zhou, Qihao Shi, Yang Gao, Yan Feng, Chun Chen, Can Wang 2024. Distributionally Robust Graph-based Recommendation System. [arXiv link](https://arxiv.org/abs/2402.12994)
 
 ## Requirements
 To install requirements:
@@ -30,5 +31,18 @@ python main.py --model=lgn --enable_DRO=1 --aug_on --full_batch --ood popularity
 ## Citation
 If you find the paper useful in your research, please consider citing:
 ```
-
+@misc{wang2024distributionally,
+      title={Distributionally Robust Graph-based Recommendation System}, 
+      author={Bohao Wang and Jiawei Chen and Changdong Li and Sheng Zhou and Qihao Shi and Yang Gao and Yan Feng and Chun Chen and Can Wang},
+      year={2024},
+      eprint={2402.12994},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
 ```
+
+## Acknowledgments
+
+This project makes use of the following open source projects:
+
+- [LightGCN-PyTorch](https://github.com/gusye1234/LightGCN-PyTorch/tree/master): Some of the functionalities are inspired by this project. Thanks for their great work.
