@@ -35,13 +35,12 @@ python main.py --model=lgn --enable_DRO=1 --aug_on --full_batch --ood popularity
 ## Citation
 If you find the paper useful in your research, please consider citing:
 ```
-@misc{wang2024distributionally,
-      title={Distributionally Robust Graph-based Recommendation System}, 
-      author={Bohao Wang and Jiawei Chen and Changdong Li and Sheng Zhou and Qihao Shi and Yang Gao and Yan Feng and Chun Chen and Can Wang},
-      year={2024},
-      eprint={2402.12994},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR}
+@inproceedings{wang2024distributionally,
+  title={Distributionally Robust Graph-based Recommendation System},
+  author={Wang, Bohao and Chen, Jiawei and Li, Changdong and Zhou, Sheng and Shi, Qihao and Gao, Yang and Feng, Yan and Chen, Chun and Wang, Can},
+  booktitle={Proceedings of the ACM on Web Conference 2024},
+  pages={3777--3788},
+  year={2024}
 }
 ```
 
